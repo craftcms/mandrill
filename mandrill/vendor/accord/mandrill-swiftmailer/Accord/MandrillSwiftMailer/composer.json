@@ -1,0 +1,35 @@
+{
+    "name": "accord/mandrill-swiftmailer",
+    "description": "A SwiftMailer transport implementation for Mandrill",
+    "keywords": ["mandrill", "swiftmailer"],
+    "homepage": "https://github.com/AccordGroup/MandrillSwiftMailer",
+    "type": "library",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "James Rattue",
+            "email": "james.rattue@accordgroup.co.uk"
+        },
+        {
+            "name": "James Willans",
+            "email": "james.willans@accordgroup.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "mandrill/mandrill": "~1.0",
+        "swiftmailer/swiftmailer": "~5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "autoload": {
+        "psr-0": { "Accord\\MandrillSwiftMailer": "" }
+    },
+    "target-dir": "Accord/MandrillSwiftMailer",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

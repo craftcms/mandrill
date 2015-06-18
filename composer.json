@@ -1,0 +1,8 @@
+{
+	"config": {
+        "vendor-dir": "mandrill/vendor"
+    },
+    "require": {
+		"accord/mandrill-swiftmailer": "^1.0"
+	}
+}
