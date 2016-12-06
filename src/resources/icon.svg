@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="M" transform="translate(5.000000, 14.000000)">
+                <polyline id="Fill-7" fill="#1A1918" points="44.3784375 38.086875 18.4289063 0 18.4289063 32.6939063 33.2465625 54.4584375 44.353125 38.1192188 44.3784375 38.086875"></polyline>
+                <polyline id="Fill-8" fill="#ED9D4A" points="44.3784375 38.086875 55.5539062 54.4935938 70.2773437 32.9667188 70.2773437 0 44.3784375 38.086875"></polyline>
+                <polyline id="Fill-9" fill="#BA7730" points="44.353125 38.1192188 33.2465625 54.4584375 44.3896875 70.81875 55.5539062 54.4935938 44.3784375 38.086875 44.353125 38.1192188"></polyline>
+                <polyline id="Fill-10" fill="#4CB2D4" points="0 70.8623438 18.4289063 70.8623438 18.4289063 32.6939063 0 5.64328125 0 70.8623438"></polyline>
+                <polyline id="Fill-11" fill="#1C82AD" points="0 0 0 5.64328125 18.4289063 32.6939063 18.4289063 0 0 0"></polyline>
+                <polyline id="Fill-12" fill="#C02439" points="70.2773437 32.9667188 70.2773437 70.8623438 88.6992188 70.8623438 88.6992188 6.035625 70.2773437 32.9667188"></polyline>
+                <polyline id="Fill-13" fill="#8F212F" points="88.6992188 0 70.2773437 0 70.2773437 32.9667188 88.6992188 6.035625 88.6992188 0"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
