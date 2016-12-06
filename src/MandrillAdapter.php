@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2015 Pixel & Tonic, Inc.
  * @license   http://buildwithcraft.com/license
  */
-namespace craftcms\mandrill;
+namespace craft\mandrill;
 
 use Craft;
 use craft\mail\transportadapters\BaseTransportAdapter;

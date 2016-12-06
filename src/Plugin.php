@@ -2,7 +2,7 @@
 /**
  * @copyright Copyright (c) 2015 Pixel & Tonic, Inc.
  */
-namespace craftcms\mandrill;
+namespace craft\mandrill;
 
 use craft\events\Event;
 use craft\events\RegisterComponentTypesEvent;
