@@ -4,9 +4,9 @@
  */
 namespace craft\mandrill;
 
-use craft\events\Event;
 use craft\events\RegisterComponentTypesEvent;
 use craft\helpers\MailerHelper;
+use yii\base\Event;
 
 /**
  * Plugin represents the Mandrill plugin.
