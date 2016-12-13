@@ -6,8 +6,10 @@
  */
 namespace craft\mandrill;
 
+use Accord\MandrillSwiftMailer\SwiftMailer\MandrillTransport;
 use Craft;
 use craft\mail\transportadapters\BaseTransportAdapter;
+use Swift_Events_SimpleEventDispatcher;
 
 /**
  * MandrillAdapter implements a Mandrill transport adapter into Craft’s mailer.
@@ -75,10 +77,10 @@ class MandrillAdapter extends BaseTransportAdapter
     public function getTransportConfig()
     {
         return [
-            'class' => 'Accord\MandrillSwiftMailer\SwiftMailer\MandrillTransport',
+            'class' => MandrillTransport::class,
             'constructArgs' => [
                 [
-                    'class' => 'Swift_Events_SimpleEventDispatcher'
+                    'class' => Swift_Events_SimpleEventDispatcher::class
                 ]
             ],
             'apiKey' => $this->apiKey,
