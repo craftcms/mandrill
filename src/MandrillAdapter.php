@@ -14,6 +14,8 @@ use Swift_Events_SimpleEventDispatcher;
 /**
  * MandrillAdapter implements a Mandrill transport adapter into Craft’s mailer.
  *
+ * @property mixed $settingsHtml
+ *
  * @author Pixel & Tonic, Inc. <support@pixelandtonic.com>
  * @since  3.0
  */
@@ -27,6 +29,7 @@ class MandrillAdapter extends BaseTransportAdapter
      */
     public static function displayName(): string
     {
+        /** @noinspection ClassConstantCanBeUsedInspection */
         return 'Mandrill';
     }
 
