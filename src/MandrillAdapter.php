@@ -25,7 +25,7 @@ class MandrillAdapter extends BaseTransportAdapter
     /**
      * @inheritdoc
      */
-    public static function displayName()
+    public static function displayName(): string
     {
         return 'Mandrill';
     }
@@ -74,7 +74,7 @@ class MandrillAdapter extends BaseTransportAdapter
     /**
      * @inheritdoc
      */
-    public function getTransportConfig()
+    public function defineTransport()
     {
         return [
             'class' => MandrillTransport::class,
