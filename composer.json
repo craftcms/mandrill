@@ -34,6 +34,7 @@
     }
   },
   "extra": {
-    "name": "Mandrill"
+    "name": "Mandrill",
+    "handle": "mandrill"
   }
 }
