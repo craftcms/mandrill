@@ -1,10 +1,10 @@
 {% import "_includes/forms" as forms %}
 
 {{ forms.textField({
-	label: "API Key"|t('mandrill'),
-	instructions: "You can find this in your Mandrill settings."|t('mandrill'),
-	id: 'apiKey',
-	name: 'apiKey',
-	value: adapter.apiKey,
-	errors: adapter.getErrors('apiKey')
+    label: "API Key"|t('mandrill'),
+    instructions: "You can find this in your Mandrill settings."|t('mandrill'),
+    id: 'apiKey',
+    name: 'apiKey',
+    value: adapter.apiKey,
+    errors: adapter.getErrors('apiKey')
 }) }}
