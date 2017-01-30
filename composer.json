@@ -4,11 +4,11 @@
   "version": "1.0.0-beta.1",
   "type": "craft-plugin",
   "keywords": [
-    "craft",
     "cms",
     "craftcms",
     "mandrill",
-    "mailer"
+    "mailer",
+    "yii2"
   ],
   "license": "MIT",
   "authors": [
@@ -35,6 +35,8 @@
   },
   "extra": {
     "name": "Mandrill",
-    "handle": "mandrill"
+    "handle": "mandrill",
+    "changelogUrl": "https://raw.githubusercontent.com/craftcms/mandrill/master/CHANGELOG.md",
+    "downloadUrl": "https://github.com/craftcms/mandrill/archive/master.zip"
   }
 }
