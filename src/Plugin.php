@@ -1,7 +1,10 @@
 <?php
 /**
- * @copyright Copyright (c) 2015 Pixel & Tonic, Inc.
+ * @link      https://craftcms.com/
+ * @copyright Copyright (c) Pixel & Tonic, Inc.
+ * @license   MIT
  */
+
 namespace craft\mandrill;
 
 use craft\events\RegisterComponentTypesEvent;
