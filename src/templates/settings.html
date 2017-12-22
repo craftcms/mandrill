@@ -8,3 +8,12 @@
     value: adapter.apiKey,
     errors: adapter.getErrors('apiKey')
 }) }}
+
+{{ forms.textField({
+    label: "Subaccount"|t('mandrill'),
+    instructions: "You can find this in your Mandrill settings."|t('mandrill'),
+    id: 'subAccount',
+    name: 'subAccount',
+    value: adapter.subAccount,
+    errors: adapter.getErrors('subAccount')
+}) }}
