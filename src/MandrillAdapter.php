@@ -42,10 +42,10 @@ class MandrillAdapter extends BaseTransportAdapter
      */
     public $apiKey;
 
-	/**
-	 * @var string The subaccount that should be used
-	 */
-	public $subAccount;
+    /**
+     * @var string The subaccount that should be used
+     */
+    public $subAccount;
 
     // Public Methods
     // =========================================================================
@@ -94,7 +94,7 @@ class MandrillAdapter extends BaseTransportAdapter
                 ]
             ],
             'apiKey' => $this->apiKey,
-	        'subAccount' => $this->subAccount,
+            'subAccount' => $this->subAccount,
         ];
     }
 }
