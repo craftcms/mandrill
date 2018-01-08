@@ -11,7 +11,7 @@
 
 {{ forms.textField({
     label: "Subaccount"|t('mandrill'),
-    instructions: "You can find this in your Mandrill settings."|t('mandrill'),
+    instructions: "If you want to send mail using a [subaccount], enter its unique identifier here."|t('mandrill')~"\n\n[subaccount]: https://mandrill.zendesk.com/hc/en-us/articles/205583357-About-Subaccounts",
     id: 'subaccount',
     name: 'subaccount',
     value: adapter.subaccount,
