@@ -45,7 +45,7 @@ class MandrillAdapter extends BaseTransportAdapter
     /**
      * @var string The subaccount that should be used
      */
-    public $subAccount;
+    public $subaccount;
 
     // Public Methods
     // =========================================================================
@@ -57,7 +57,7 @@ class MandrillAdapter extends BaseTransportAdapter
     {
         return [
             'apiKey' => Craft::t('mandrill', 'API Key'),
-            'subAccount' => Craft::t('mandrill', 'Subaccount'),
+            'subaccount' => Craft::t('mandrill', 'Subaccount'),
         ];
     }
 
@@ -94,7 +94,7 @@ class MandrillAdapter extends BaseTransportAdapter
                 ]
             ],
             'apiKey' => $this->apiKey,
-            'subAccount' => $this->subAccount,
+            'subaccount' => $this->subaccount,
         ];
     }
 }
