@@ -94,7 +94,7 @@ class MandrillAdapter extends BaseTransportAdapter
                 ]
             ],
             'apiKey' => $this->apiKey,
-            'subaccount' => $this->subaccount,
+            'subAccount' => $this->subaccount,
         ];
     }
 }
