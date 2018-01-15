@@ -1,7 +1,7 @@
 {
   "name": "craftcms/mandrill",
   "description": "Mandrill Adapter for Craft CMS",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "craft-plugin",
   "keywords": [
     "cms",
