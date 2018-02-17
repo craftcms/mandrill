@@ -1,8 +1,8 @@
 <?php
 /**
- * @link      https://craftcms.com/
+ * @link https://craftcms.com/
  * @copyright Copyright (c) Pixel & Tonic, Inc.
- * @license   MIT
+ * @license MIT
  */
 
 namespace craft\mandrill;
@@ -16,9 +16,8 @@ use Swift_Events_SimpleEventDispatcher;
  * MandrillAdapter implements a Mandrill transport adapter into Craft’s mailer.
  *
  * @property mixed $settingsHtml
- *
  * @author Pixel & Tonic, Inc. <support@pixelandtonic.com>
- * @since  3.0
+ * @since 3.0
  */
 class MandrillAdapter extends BaseTransportAdapter
 {

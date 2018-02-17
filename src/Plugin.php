@@ -1,8 +1,8 @@
 <?php
 /**
- * @link      https://craftcms.com/
+ * @link https://craftcms.com/
  * @copyright Copyright (c) Pixel & Tonic, Inc.
- * @license   MIT
+ * @license MIT
  */
 
 namespace craft\mandrill;
@@ -15,7 +15,7 @@ use yii\base\Event;
  * Plugin represents the Mandrill plugin.
  *
  * @author Pixel & Tonic, Inc. <support@pixelandtonic.com>
- * @since  3.0
+ * @since 3.0
  */
 class Plugin extends \craft\base\Plugin
 {
