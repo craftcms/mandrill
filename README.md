@@ -1,5 +1,4 @@
-Mandrill for Craft CMS
-======================
+# Mandrill for Craft CMS
 
 This plugin provides a [Mandrill](http://mandrill.com/) integration for [Craft CMS](https://craftcms.com/).
 

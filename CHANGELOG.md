@@ -1,5 +1,4 @@
-Changelog
-=========
+# Release Notes for Mandrill for Craft CMS
 
 ## 1.2.0 - 2018-01-15
 
