@@ -1,5 +1,10 @@
 # Release Notes for Mandrill for Craft CMS
 
+## 1.2.1 - 2019-01-31
+
+### Added
+- Allows [overriding plugin settings](https://docs.craftcms.com/v3/extend/plugin-settings.html#overriding-setting-values). ([#3](https://github.com/craftcms/mandrill/pull/3))
+
 ## 1.2.0 - 2018-01-15
 
 ### Added
