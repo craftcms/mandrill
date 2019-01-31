@@ -10,6 +10,7 @@ namespace craft\mandrill;
 use Accord\MandrillSwiftMailer\SwiftMailer\MandrillTransport;
 use Craft;
 use craft\mail\transportadapters\BaseTransportAdapter;
+use craft\mandrill\Plugin;
 use Swift_Events_SimpleEventDispatcher;
 
 /**
@@ -52,12 +53,29 @@ class MandrillAdapter extends BaseTransportAdapter
     /**
      * @inheritdoc
      */
+    public function init()
+    {
+        $this->loadPluginSettings();
+        parent::init();
+    }
+
+    /**
+     * @inheritdoc
+     */
     public function attributeLabels()
     {
         return [
             'apiKey' => Craft::t('mandrill', 'API Key'),
             'subaccount' => Craft::t('mandrill', 'Subaccount'),
         ];
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function safeAttributes()
+    {
+        return ['apiKey', 'subaccount'];
     }
 
     /**
@@ -95,5 +113,15 @@ class MandrillAdapter extends BaseTransportAdapter
             'apiKey' => $this->apiKey,
             'subAccount' => $this->subaccount ?: null,
         ];
+    }
+
+    /**
+     * Loads Craft plugin settings
+     * @return void
+     */
+    protected function loadPluginSettings()
+    {
+        $settings = Plugin::getInstance()->getSettings();
+        $this->setAttributes($settings->getAttributes());
     }
 }

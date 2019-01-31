@@ -10,6 +10,7 @@ namespace craft\mandrill;
 use craft\events\RegisterComponentTypesEvent;
 use craft\helpers\MailerHelper;
 use yii\base\Event;
+use craft\mandrill\models\Settings;
 
 /**
  * Plugin represents the Mandrill plugin.
@@ -32,5 +33,14 @@ class Plugin extends \craft\base\Plugin
         Event::on(MailerHelper::class, MailerHelper::EVENT_REGISTER_MAILER_TRANSPORT_TYPES, function(RegisterComponentTypesEvent $event) {
             $event->types[] = MandrillAdapter::class;
         });
+    }
+
+    /**
+     * Creates settings model
+     * @return Settings
+     */
+    protected function createSettingsModel()
+    {
+        return new Settings();
     }
 }
