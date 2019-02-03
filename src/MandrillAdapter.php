@@ -92,8 +92,8 @@ class MandrillAdapter extends BaseTransportAdapter
                     'class' => Swift_Events_SimpleEventDispatcher::class
                 ]
             ],
-            'apiKey' => $this->apiKey,
-            'subAccount' => $this->subaccount ?: null,
+            'apiKey' => Craft::parseEnv($this->apiKey),
+            'subAccount' => Craft::parseEnv($this->subaccount) ?: null,
         ];
     }
 }
