@@ -6,7 +6,7 @@ This plugin provides a [Mandrill](http://mandrill.com/) integration for [Craft C
 
 ## Requirements
 
-This plugin requires Craft CMS 3.1.0 or later.
+This plugin requires Craft CMS 3.1.5 or later.
 
 ## Installation
 

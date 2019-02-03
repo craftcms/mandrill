@@ -6,7 +6,7 @@
 - It’s now possible to set the API Key and Subaccount settings to environment variables.
 
 ### Changed
-- Mandrill now requires Craft 3.1.0 or later.
+- Mandrill now requires Craft 3.1.5 or later.
 
 ## 1.2.0 - 2018-01-15
 
