@@ -1,4 +1,4 @@
-<p align="center"><img src="./src/icon.svg" width="100" height="100" alt="Craft Commerce icon"></p>
+<p align="center"><img src="./src/icon.svg" width="100" height="100" alt="Mandrill for Craft CMS icon"></p>
 
 <h1 align="center">Mandrill for Craft CMS</h1>
 
@@ -36,5 +36,5 @@ composer require craftcms/mandrill
 Once Mandrill is installed, go to Settings → Email, and change the “Transport Type” setting to “Mandrill”. Enter your Mandrill API Key (which you can get from [mandrillapp.com/settings](https://mandrillapp.com/settings)) and Subaccount (optional), then click Save.
 
 ::: tip
-The API Key and Subaccount settings can be set to an environment variable. See [Environmental Configuration](https://docs.craftcms.com/v3/config/environments.html) in the Craft docs to learn more about that.
+The API Key and Subaccount settings can be set to an environment variables. See [Environmental Configuration](https://docs.craftcms.com/v3/config/environments.html) in the Craft docs to learn more about that.
 :::
