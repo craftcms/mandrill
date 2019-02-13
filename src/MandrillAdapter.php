@@ -9,6 +9,7 @@ namespace craft\mandrill;
 
 use Accord\MandrillSwiftMailer\SwiftMailer\MandrillTransport;
 use Craft;
+use craft\behaviors\EnvAttributeParserBehavior;
 use craft\mail\transportadapters\BaseTransportAdapter;
 use Swift_Events_SimpleEventDispatcher;
 
@@ -48,6 +49,22 @@ class MandrillAdapter extends BaseTransportAdapter
 
     // Public Methods
     // =========================================================================
+
+    /**
+     * @inheritdoc
+     */
+    public function behaviors()
+    {
+        return [
+            'parser' => [
+                'class' => EnvAttributeParserBehavior::class,
+                'attributes' => [
+                    'apiKey',
+                    'subaccount',
+                ],
+            ],
+        ];
+    }
 
     /**
      * @inheritdoc
