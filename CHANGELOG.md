@@ -1,5 +1,10 @@
 # Release Notes for Mandrill for Craft CMS
 
+## 1.3.1 - 2019-02-22
+
+### Fixed
+- Fixed a bug where `craft\mandrill\MandrillAdapter` wasn’t triggering the `defineBehaviors` event.
+
 ## 1.3.0 - 2019-02-04
 
 ### Added

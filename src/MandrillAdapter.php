@@ -55,15 +55,15 @@ class MandrillAdapter extends BaseTransportAdapter
      */
     public function behaviors()
     {
-        return [
-            'parser' => [
-                'class' => EnvAttributeParserBehavior::class,
-                'attributes' => [
-                    'apiKey',
-                    'subaccount',
-                ],
+        $behaviors = parent::behaviors();
+        $behaviors['parser'] = [
+            'class' => EnvAttributeParserBehavior::class,
+            'attributes' => [
+                'apiKey',
+                'subaccount',
             ],
         ];
+        return $behaviors;
     }
 
     /**
