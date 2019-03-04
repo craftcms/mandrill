@@ -21,7 +21,7 @@
     "email": "support@craftcms.com",
     "issues": "https://github.com/craftcms/mandrill/issues?state=open",
     "source": "https://github.com/craftcms/mandrill",
-    "docs": "https://github.com/craftcms/mandrill",
+    "docs": "https://github.com/craftcms/mandrill/blob/v1/README.md",
     "rss": "https://github.com/craftcms/mandrill/commits/master.atom"
   },
   "require": {
@@ -36,7 +36,6 @@
   "extra": {
     "name": "Mandrill",
     "handle": "mandrill",
-    "changelogUrl": "https://raw.githubusercontent.com/craftcms/mandrill/master/CHANGELOG.md",
-    "downloadUrl": "https://github.com/craftcms/mandrill/archive/master.zip"
+    "documentationUrl": "https://github.com/craftcms/mandrill/blob/v1/README.md"
   }
 }
