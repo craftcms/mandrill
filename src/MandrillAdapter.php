@@ -22,9 +22,6 @@ use Swift_Events_SimpleEventDispatcher;
  */
 class MandrillAdapter extends BaseTransportAdapter
 {
-    // Static
-    // =========================================================================
-
     /**
      * @inheritdoc
      */
@@ -33,9 +30,6 @@ class MandrillAdapter extends BaseTransportAdapter
         /** @noinspection ClassConstantCanBeUsedInspection */
         return 'Mandrill';
     }
-
-    // Properties
-    // =========================================================================
 
     /**
      * @var string The API key that should be used
@@ -46,9 +40,6 @@ class MandrillAdapter extends BaseTransportAdapter
      * @var string The subaccount that should be used
      */
     public $subaccount;
-
-    // Public Methods
-    // =========================================================================
 
     /**
      * @inheritdoc

@@ -19,9 +19,6 @@ use yii\base\Event;
  */
 class Plugin extends \craft\base\Plugin
 {
-    // Public Methods
-    // =========================================================================
-
     /**
      * @inheritdoc
      */
@@ -29,8 +26,12 @@ class Plugin extends \craft\base\Plugin
     {
         parent::init();
 
-        Event::on(MailerHelper::class, MailerHelper::EVENT_REGISTER_MAILER_TRANSPORT_TYPES, function(RegisterComponentTypesEvent $event) {
-            $event->types[] = MandrillAdapter::class;
-        });
+        Event::on(
+            MailerHelper::class,
+            MailerHelper::EVENT_REGISTER_MAILER_TRANSPORT_TYPES,
+            function(RegisterComponentTypesEvent $event) {
+                $event->types[] = MandrillAdapter::class;
+            }
+        );
     }
 }
